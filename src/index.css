@@ -1,13 +1,138 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+    position: absolute;
+width: 1169px;
+height: 94.5px;
+left: 320px;
+top: -0.5px;
+border: 0.5px solid #A4ACAD;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.info h4 {
+    position: absolute;
+    width: 111px;
+    height: 22px;
+    left: 375px;
+    top: 6px;
+
+    font-family: "DIN Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info h3 {
+    position: absolute;
+    width: 138px;
+    height: 36px;
+    left: 358px;
+    top: 36px;
+
+    font-family: "DIN Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ff9846;
+}
+
+p {
+    position: absolute;
+    width: 165px;
+    height: 17px;
+    left: 358px;
+    top: 75px;
+
+    font-family: "DIN Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #a4acad;
+}
+
+.info img {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 338px;
+    top: 72px;
+}
+
+.info-2 h4 {
+    position: absolute;
+    width: 42px;
+    height: 17px;
+    left: 552px;
+    top: 26px;
+
+    font-family: "DIN Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #a4acad;
+}
+
+.info-2 h3 {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    left: 553px;
+    top: 47px;
+
+    font-family: "DIN Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.section h3 {
+width: 64px;
+left: 1126px;
+top: 37px;
+}
+
+.section h2 {
+    position: absolute;
+width: 151px;
+height: 22px;
+left: 1200px;
+top: 37px;
+font-family: 'DIN Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FF9846;
+}
+
+.section img {
+    position: absolute;
+width: 30px;
+height: 30px;
+left: 1420px;
+top: 35px;
 }
