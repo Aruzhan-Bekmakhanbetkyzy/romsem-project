@@ -1,6 +1,8 @@
 import React from "react";
+import {time} from "../images/images.js"
+import {search} from "../images/images.js"
 
-const Header = (time, search) => {
+const Header = () => {
     return (
         <div className="header">
             <div className="info">
@@ -15,7 +17,7 @@ const Header = (time, search) => {
                 <div className="section">
                     <h3>reviews</h3>
                     <h2>shipping and payment</h2>
-                    <img src="search" alt="search" />
+                    <img src={search} alt="search" />
                 </div>
             </div>
         </div>

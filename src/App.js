@@ -1,11 +1,14 @@
 import './index.css'
 import Header from './components/Header';
-import time from './images/time.png'
+import Corpse from './components/Corpse'
 
 
 function App() {
   return (
-    <Header img src={time}/>
+    <div>
+    <Header />
+    <Corpse />
+   </div>
   );
 }
 
