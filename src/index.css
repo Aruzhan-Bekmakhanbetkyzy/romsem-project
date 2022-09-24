@@ -1,219 +1,126 @@
-.header {
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Inter:wght@200&display=swap");
+
+.logo {
     position: absolute;
-    width: 1169px;
-    height: 94.5px;
-    left: 320px;
-    top: -0.5px;
+    width: 100px;
+    height: 100px;
+    left: 140px;
+    top: 26px;
+}
+
+h1 {
+    position: absolute;
+    width: 137px;
+    height: 30px;
+    left: 126px;
+    top: 115px;
+
+    font-family: "Aref Ruqaa Ink", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.underline {
+    position: absolute;
+    width: 180px;
+    height: 0px;
+    left: 100px;
+    top: 196px;
     border: 0.5px solid #a4acad;
 }
 
-.info h4 {
-    position: absolute;
-    width: 111px;
-    height: 22px;
-    left: 375px;
-    top: 6px;
-
-    font-family: "DIN Pro";
+.text {
+    font-family: "Inter", sans-serif;
+    font-weight: 1000;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.info h3 {
-    position: absolute;
-    width: 138px;
-    height: 36px;
-    left: 358px;
-    top: 36px;
-
-    font-family: "DIN Pro";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ff9846;
-}
-
-p {
-    position: absolute;
-    width: 165px;
-    height: 17px;
-    left: 358px;
-    top: 75px;
-
-    font-family: "DIN Pro";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #a4acad;
-}
-
-.info img {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 338px;
-    top: 72px;
-}
-
-.info-2 h4 {
-    position: absolute;
-    width: 42px;
-    height: 17px;
-    left: 552px;
-    top: 26px;
-
-    font-family: "DIN Pro";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #a4acad;
-}
-
-.info-2 h3 {
-    position: absolute;
-    width: 80px;
-    height: 22px;
-    left: 553px;
-    top: 47px;
-
-    font-family: "DIN Pro";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.section h3 {
-    width: 64px;
-    left: 1126px;
-    top: 37px;
-}
-
-.section h2 {
-    position: absolute;
-    width: 151px;
-    height: 22px;
-    left: 1200px;
-    top: 37px;
-    font-family: "DIN Pro";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ff9846;
-}
-
-.section img {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 1420px;
-    top: 35px;
-}
-
-.basic-image img {
-    position: absolute;
-    width: 950px;
-    height: 470px;
-    left: 430px;
-    top: 124px;
-
-    border-radius: 5px;
-}
-
-.bigImages img {
-    position: absolute;
-    width: 450px;
-    height: 200px;
-    border-radius: 5px;
-}
-
-.first img {
-    left: 430px;
-    top: 644px;
-    background: linear-gradient(
-        360deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.07) 100%
-    );
-}
-
-.second img {
-    left: 430px;
-    top: 874px;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.2) 100%
-    );
-}
-
-.third img {
-    left: 910px;
-    top: 874px;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 0.2) 100%
-    );
-}
-
-.smallImages img {
-    position: absolute;
-    width: 224px;
-    height: 200px;
-    border-radius: 5px;
-}
-
-.all h4 {
-    position: absolute;
-    font-family: "DIN Pro";
-    font-style: normal;
-    font-weight: 500;
     font-size: 24px;
     line-height: 30px;
-
     display: flex;
     align-items: center;
 }
 
-.text {
-    width: 97px;
+.t_1 {
+    position: absolute;
+    width: 71px;
     height: 30px;
-    left: 430px;
-    top: 1126px;
-    font-family: "DIN Pro";
+    left: 179px;
+    top: 227px;
+    color: #ff9846;
 }
-.text_2 {
-    width: 133px;
+
+.t_2 {
+    position: absolute;
+    width: 56px;
     height: 30px;
-    left: 557px;
-    top: 1126px;
-    text-decoration-line: underline;
-    color: #a4acad;
+    left: 179px;
+    top: 287px;
+}
+
+.t_3 {
+    position: absolute;
+    width: 52px;
+    height: 30px;
+    left: 179px;
+    top: 347px;
+}
+
+.t_4 {
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    left: 179px;
+    top: 407px;
+}
+
+.t_5 {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 179px;
+    top: 467px;
+}
+
+.t_6 {
+    position: absolute;
+    width: 81px;
+    height: 30px;
+    left: 179px;
+    top: 527px;
+}
+
+.t_7 {
+    position: absolute;
+    width: 57px;
+    height: 30px;
+    left: 179px;
+    top: 587px;
+}
+
+.t_8 {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 179px;
+    top: 647px;
+}
+
+.t_9 {
+    position: absolute;
+    width: 93px;
+    height: 30px;
+    left: 179px;
+    top: 707px;
+}
+
+.t_10 {
+    position: absolute;
+    width: 69px;
+    height: 30px;
+    left: 186px;
+    top: 767px;
 }

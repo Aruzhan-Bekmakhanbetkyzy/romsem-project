@@ -1,3 +1,14 @@
+import logo from "./logo.png";
+import rightpizza from "./rightpizza.png";
+import rightsets from "./rightsets.png";
+import rightwok from "./rightwok.png";
+import rightrolls from "./rightrolls.png";
+import rightsushi from "./rightsushi.png";
+import rightsalads from "./rightsalads.png";
+import rightsoups from "./rightsoups.png";
+import rightcorndogs from "./rightcorndogs.png";
+import rightdrinks from "./rightdrinks.png";
+import rightpromotions from "./rightpromotions.png";
 import time from "./time.png";
 import search from "./search.png";
 import food1 from "./food1.png";
@@ -10,7 +21,18 @@ import food7 from "./food7.png";
 import food8 from "./food8.png";
 import food9 from "./food9.png";
 
-export  {
+export {
+    logo,
+    rightpizza,
+    rightsets,
+    rightwok,
+    rightrolls,
+    rightsushi,
+    rightsalads,
+    rightsoups,
+    rightcorndogs,
+    rightdrinks,
+    rightpromotions,
     time,
     search,
     food1,
