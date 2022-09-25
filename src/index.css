@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Inter:wght@200&display=swap");
 
+/* LeftBar */
+.general_leftbar {
+    width: 320px;
+}
+
 .logo {
     position: absolute;
     width: 100px;
@@ -37,6 +42,7 @@ h1 {
 .text {
     font-family: "Inter", sans-serif;
     font-weight: 1000;
+    height: 30px;
     font-style: normal;
     font-size: 24px;
     line-height: 30px;
@@ -47,7 +53,6 @@ h1 {
 .t_1 {
     position: absolute;
     width: 71px;
-    height: 30px;
     left: 179px;
     top: 227px;
     color: #ff9846;
@@ -56,7 +61,6 @@ h1 {
 .t_2 {
     position: absolute;
     width: 56px;
-    height: 30px;
     left: 179px;
     top: 287px;
 }
@@ -64,7 +68,6 @@ h1 {
 .t_3 {
     position: absolute;
     width: 52px;
-    height: 30px;
     left: 179px;
     top: 347px;
 }
@@ -72,7 +75,6 @@ h1 {
 .t_4 {
     position: absolute;
     width: 71px;
-    height: 30px;
     left: 179px;
     top: 407px;
 }
@@ -80,7 +82,6 @@ h1 {
 .t_5 {
     position: absolute;
     width: 60px;
-    height: 30px;
     left: 179px;
     top: 467px;
 }
@@ -88,7 +89,6 @@ h1 {
 .t_6 {
     position: absolute;
     width: 81px;
-    height: 30px;
     left: 179px;
     top: 527px;
 }
@@ -96,15 +96,13 @@ h1 {
 .t_7 {
     position: absolute;
     width: 57px;
-    height: 30px;
     left: 179px;
     top: 587px;
 }
 
 .t_8 {
     position: absolute;
-    width: 110px;
-    height: 30px;
+    width: 115px;
     left: 179px;
     top: 647px;
 }
@@ -112,7 +110,6 @@ h1 {
 .t_9 {
     position: absolute;
     width: 93px;
-    height: 30px;
     left: 179px;
     top: 707px;
 }
@@ -120,7 +117,334 @@ h1 {
 .t_10 {
     position: absolute;
     width: 69px;
-    height: 30px;
-    left: 186px;
+    left: 179px;
     top: 767px;
+}
+
+img {
+    position: absolute;
+}
+
+.r_pizza {
+    width: 30px;
+    height: 27.77px;
+    left: 129px;
+    top: 228.11px;
+}
+
+.r_sets {
+    width: 27.07px;
+    height: 29px;
+    left: 129px;
+    top: 287px;
+}
+
+.r_wok {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 347px;
+}
+
+.r_rolls {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 407px;
+}
+
+.r_sushi {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 467px;
+}
+
+.r_salads {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 527px;
+}
+
+.r_soups {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 587px;
+}
+
+.r_corndogs {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 647px;
+}
+
+.r_drinks {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 707px;
+}
+
+.r_promotions {
+    width: 30px;
+    height: 30px;
+    left: 129px;
+    top: 767px;
+}
+
+/* End of LeftBar */
+
+/* Center */
+/* top */
+.general_center {
+    position: absolute;
+    width: 1170px;
+    height: 2295px;
+    left: 320px;
+    top: 0px;
+    background: #f2f2f2;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    position: absolute;
+}
+
+.top {
+    position: absolute;
+    width: 1169px;
+    height: 94.5px;
+    left: 0px;
+    top: -0.5px;
+    border: 0.5px solid #a4acad;
+}
+
+.top h3 {
+    position: absolute;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.top h4 {
+    position: absolute;
+    align-items: center;
+}
+
+.top_left_side_h4 {
+    width: 111px;
+    height: 0px;
+    left: 109px;
+    top: 0px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+}
+
+.top_left_side_h3 {
+    width: 138px;
+    height: 15px;
+    left: 80px;
+    top: 25px;
+    font-weight: 900;
+    line-height: 100%;
+    color: #ff9846;
+}
+
+.time {
+    width: 15px;
+    height: 15px;
+    left: 47px;
+    top: 73px;
+}
+
+.top_left_side_h5 {
+    position: absolute;
+    width: 185px;
+    height: 8px;
+    left: 70px;
+    top: 52px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #a4acad;
+}
+
+.top_right_side_p {
+    position: absolute;
+    width: 42px;
+    height: 17px;
+    left: 290px;
+    top: 14px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #a4acad;
+}
+
+.top_right_side_h4 {
+    width: 64px;
+    height: 22px;
+    left: 290px;
+    top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.top_right_side_h3_2 {
+    width: 64px;
+    height: 22px;
+    left: 1126px;
+    top: 37px;
+    font-weight: 400;
+}
+
+.reviews {
+    width: 64px;
+    left: 765px;
+    top: 18px;
+    font-weight: 600;
+}
+
+.ship_and_pay {
+    width: 186px;
+    left: 860px;
+    top: 18px;
+    font-weight: 600;
+    color: #ff9846;
+}
+
+.search {
+    left: 1100px;
+    top: 30px;
+}
+/* end of top */
+/* middle */
+/* foods img */
+.image-container {
+    border-radius: 5px;
+}
+
+.food_1 {
+    width: 950px;
+    height: 470px;
+    left: 110px;
+    top: 124px;
+}
+
+.food_2 {
+    left: 110px;
+    top: 644px;
+}
+
+.food_3 {
+    left: 110px;
+    top: 874px;
+}
+
+.food_4 {
+    left: 590px;
+    top: 644px;
+}
+
+.food_5 {
+    left: 836px;
+    top: 644px;
+}
+
+.food_6 {
+    left: 590px;
+    top: 874px;
+}
+/* end of foods img */
+
+.novelties {
+    position: absolute;
+    left: 110px;
+    top: 1126px;
+    font-weight: 900;
+}
+
+.popular {
+    position: absolute;
+    left: 237px;
+    top: 1126px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #a4acad;
+}
+
+.salamon_set {
+    position: absolute;
+    width: 289px;
+    height: 397px;
+    left: 110px;
+    top: 1185px;
+    background: #ffffff;
+}
+
+.salamon_set img {
+    position: absolute;
+    left: 6.21%;
+    right: 6.55%;
+    top: 0%;
+    bottom: 47.41%;
+}
+
+.salamon_set h2 {
+    position: absolute;
+    left: 6.21%;
+    right: 46.21%;
+    top: 55.25%;
+    bottom: 31.87%;
+    font-weight: 900;
+}
+
+.salamon_set h3 {
+    position: absolute;
+    left: 6.21%;
+    right: 25.52%;
+    top: 72.8%;
+    bottom: 18.39%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a4acad;
+}
+
+.food_card_underline {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 86.79%;
+    bottom: 13.21%;
+    border: 0.5px solid #a4acad;
+}
+
+.salamon_set .price {
+    position: absolute;
+    left: 6.21%;
+    right: 56.55%;
+    top: 85.45%;
+    bottom: 0.78%;
+    font-weight: 900;
+    width: 139px;
+    font-size: 24px;
+}
+
+.salamon_set button {
+    position: absolute;
+    left: 47.59%;
+    right: 3.1%;
+    top: 89.64%;
+    bottom: 0%;
+    background: #f46d40;
+    border-radius: 5px;
 }
