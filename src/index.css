@@ -382,6 +382,19 @@ img {
     color: #a4acad;
 }
 
+/* all button */
+button {
+    position: absolute;
+    left: 150px;
+    right: 3.1%;
+    top: 89.64%;
+    bottom: 0%;
+    width: 130px;
+    background: #f46d40;
+    border-radius: 5px;
+}
+/* end all button */
+
 .salamon_set {
     position: absolute;
     width: 289px;
@@ -430,21 +443,343 @@ img {
 
 .salamon_set .price {
     position: absolute;
-    left: 6.21%;
+    left: 4.21%;
     right: 56.55%;
     top: 85.45%;
     bottom: 0.78%;
     font-weight: 900;
     width: 139px;
     font-size: 24px;
+    display: inline-block;
+    transform: scale(0.9, 1.1);
 }
 
-.salamon_set button {
+.phila_and_salmonset {
     position: absolute;
-    left: 47.59%;
-    right: 3.1%;
-    top: 89.64%;
-    bottom: 0%;
-    background: #f46d40;
+    width: 289px;
+    height: 397px;
+    left: 440px;
+    top: 1185px;
+    background: #ffffff;
+}
+
+.phila_and_salmonset img {
+    position: absolute;
+    left: 6.21%;
+    right: 6.55%;
+    top: 0%;
+    bottom: 47.41%;
+}
+
+.phila_and_salmonset h2 {
+    position: absolute;
+    left: 6.21%;
+    right: 31.72%;
+    top: 55.25%;
+    bottom: 27.98%;
+    width: 182px;
+    font-weight: 900;
+}
+
+.phila_and_salmonset h3 {
+    position: absolute;
+    left: 6.21%;
+    right: 25.52%;
+    top: 72.8%;
+    bottom: 18.39%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a4acad;
+}
+
+.phila_and_salmonset .price {
+    position: absolute;
+    left: 5.21%;
+    right: 56.55%;
+    top: 85.45%;
+    bottom: 0.78%;
+    width: 139px;
+    font-weight: 900;
+    line-height: 30px;
+    font-size: 24px;
+    display: inline-block;
+    transform: scale(0.9, 1.1);
+}
+
+.biggest_phila {
+    position: absolute;
+    width: 289px;
+    height: 397px;
+    left: 770px;
+    top: 1185px;
+    background: #ffffff;
+}
+
+.biggest_phila img {
+    position: absolute;
+    left: 6.21%;
+    right: 6.55%;
+    top: 0%;
+    bottom: 47.41%;
+}
+
+.biggest_phila h2 {
+    position: absolute;
+    left: 6.21%;
+    right: 31.72%;
+    top: 55.25%;
+    bottom: 27.98%;
+    font-weight: 900;
+}
+
+.biggest_phila h3 {
+    position: absolute;
+    left: 6.21%;
+    right: 25.52%;
+    top: 72.8%;
+    bottom: 18.39%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a4acad;
+}
+
+.biggest_phila .price {
+    position: absolute;
+    left: 4.21%;
+    right: 56.55%;
+    top: 85.45%;
+    bottom: 0.78%;
+    width: 140px;
+    font-weight: 900;
+    line-height: 30px;
+    font-size: 24px;
+    display: inline-block;
+    transform: scale(0.9, 1.1);
+}
+
+.info_order h1 {
+    position: absolute;
+    width: 289px;
+    height: 30px;
+    left: 110px;
+    top: 1632px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    color: #a4acad;
+}
+
+.info_order h2 {
+    position: absolute;
+    width: 950px;
+    height: 228px;
+    left: 110px;
+    top: 1672px;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #a4acad;
+}
+
+.more {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 512px;
+    top: 1942px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #f46d40;
+}
+
+/* end of the middle */
+/* foot */
+.foot_underline {
+    position: absolute;
+    width: 950px;
+    height: 0px;
+    left: 110px;
+    top: 2026px;
+    border: 0.5px solid #a4acad;
+}
+
+.foot_info h3 {
+    position: absolute;
+    left: 110px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    width: 131px;
+    top: 2059px;
+}
+
+.shipping {
+    width: 186px;
+    top: 2097px;
+}
+
+.tape {
+    width: 131px;
+    top: 2135px;
+}
+
+.policy {
+    width: 131px;
+    top: 2173px;
+}
+
+.verticalLine {
+    position: absolute;
+    width: 0px;
+    height: 247px;
+    top: 2048px;
+    border: 0.5px solid #a4acad;
+}
+
+.vLine_1 {
+    left: 400px;
+}
+.vLine_2 {
+    left: 730px;
+}
+
+.social h3 {
+    position: absolute;
+    height: 22px;
+    left: 440px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.enter {
+    width: 126px;
+    top: 2057px;
+    letter-spacing: 1px;
+}
+
+.number {
+    width: 160px;
+    top: 2089px;
+    letter-spacing: 2px;
+    color: #a4acad;
+}
+
+.com_text {
+    width: 260px;
+    height: 44px;
+    top: 2140px;
+
+    color: #a4acad;
+}
+
+.whatsapp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 441px;
+    top: 2205px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 26px;
+}
+
+.telegram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 521px;
+    top: 2205px;
+    background: #61a8de;
+    border-radius: 26px;
+}
+
+.instagram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 601px;
+    top: 2205px;
+    border-radius: 26px;
+}
+
+.contacts h3 {
+    position: absolute;
+    width: 180px;
+    height: 22px;
+    left: 771px;
+    top: 2057px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a4acad;
+}
+
+.contacts .address {
+    position: absolute;
+    width: 194px;
+    height: 22px;
+    left: 771px;
+    top: 2120px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a4acad;
+}
+/* end of the foot */
+/* end of the center */
+
+/* RightBar */
+.basket {
+    position: absolute;
+    width: 290px;
+    height: 140px;
+    left: 1530px;
+    top: 55px;
+    background: #f2f2f2;
     border-radius: 5px;
+}
+
+.basket h2 {
+    position: absolute;
+    width: 229px;
+    height: 30px;
+    left: 40px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.basket h3 {
+    position: absolute;
+    width: 265px;
+    height: 22px;
+    left: 63px;
+    top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a4acad;
+}
+
+.basket button {
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    left: 0px;
+    top: 100px;
+    background: #ff9846;
+    border-radius: 0px 0px 5px 5px;
 }

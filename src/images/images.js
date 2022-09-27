@@ -20,6 +20,9 @@ import food6 from "./food6.png";
 import food7 from "./food7.png";
 import food8 from "./food8.png";
 import food9 from "./food9.png";
+import whatsapp from "./whatsapp.png";
+import telegram from "./telegram.png";
+import instagram from "./instagram.png";
 
 export {
     logo,
@@ -44,4 +47,7 @@ export {
     food7,
     food8,
     food9,
+    whatsapp,
+    telegram,
+    instagram,
 };

@@ -21,7 +21,7 @@ const LeftBar = () => {
                 <h1>Romsem</h1>
             </div>
             <div className="text">
-              <img className="r_pizza" src={rightpizza} alt="pizza" />
+                <img className="r_pizza" src={rightpizza} alt="pizza" />
                 <text className="t_1">Pizza</text>
                 <img className="r_sets" src={rightsets} alt="sets" />
                 <text className="t_2">Sets</text>
@@ -35,11 +35,19 @@ const LeftBar = () => {
                 <text className="t_6">Salads</text>
                 <img className="r_soups" src={rightsoups} alt="soups" />
                 <text className="t_7">Soups</text>
-                <img className="r_corndogs" src={rightcorndogs} alt="corndogs" />
+                <img
+                    className="r_corndogs"
+                    src={rightcorndogs}
+                    alt="corndogs"
+                />
                 <text className="t_8">Corn dogs</text>
                 <img className="r_drinks" src={rightdrinks} alt="drinks" />
                 <text className="t_9">Drinks</text>
-                <img className="r_promotions" src={rightpromotions} alt="promotions" />
+                <img
+                    className="r_promotions"
+                    src={rightpromotions}
+                    alt="promotions"
+                />
                 <text className="t_10">Promotions</text>
             </div>
 
