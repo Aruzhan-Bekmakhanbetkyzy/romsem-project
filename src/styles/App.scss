@@ -3,4 +3,13 @@ body {
         display: flex;
         flex-direction: row;
     }
+    .outer-right{
+        width: 20%;
+    }
+    .outer-left{
+        width: 20%;
+    }
+    .outer-center{
+        width: 60%;
+    }
 }

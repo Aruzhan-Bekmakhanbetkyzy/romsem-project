@@ -6,13 +6,13 @@ import RightBar from "./components/RightBar";
 function App() {
     return (
         <div className="outer-container">
-            <div>
+            <div className="outer-left">
                 <LeftBar></LeftBar>
             </div>
-            <div>
+            <div className="outer-center">
                 <Center></Center>
             </div>
-            <div>
+            <div className="outer-right">
                 <RightBar></RightBar>
             </div>
         </div>
