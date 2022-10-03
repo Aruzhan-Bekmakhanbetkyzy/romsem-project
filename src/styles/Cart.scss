@@ -1,0 +1,13 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #F2F2F2;
+    margin: 20px;
+    width: 70%;
+
+    .info {
+        background-color: #FF9846;
+        width: 100%;
+    }
+}

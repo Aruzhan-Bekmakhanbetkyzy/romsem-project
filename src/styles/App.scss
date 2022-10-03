@@ -5,11 +5,16 @@ body {
     }
     .outer-right{
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
     .outer-left{
         width: 20%;
     }
     .outer-center{
         width: 60%;
+        background-color: #F2F2F2;
     }
 }
