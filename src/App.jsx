@@ -1,13 +1,15 @@
 import "./styles/App.scss";
-import LeftBar from "./components/LeftBar";
 import Center from "./components/Center";
 import RightBar from "./components/RightBar";
+import Logo from "./components/Logo";
+import Sidebar from "./components/Sidebar";
 
 function App() {
     return (
         <div className="outer-container">
             <div className="outer-left">
-                <LeftBar></LeftBar>
+               <Logo />
+               <Sidebar />
             </div>
             <div className="outer-center">
                 <Center></Center>
