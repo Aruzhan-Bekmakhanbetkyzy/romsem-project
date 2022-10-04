@@ -1,0 +1,26 @@
+.sidebar {
+    height: 100%;
+    width: 320px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: white;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 8px;
+        font-size: 24px;
+        display: block;
+        align-items: center;
+    }
+
+    .routes {
+        flex: 1;
+        padding: 10px;
+    }
+}

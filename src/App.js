@@ -1,13 +1,13 @@
 import "./styles/App.scss";
-import LeftBar from "./components/LeftBar";
-import Center from "./components/Center";
-import RightBar from "./components/RightBar";
+import Sidebar from "./components/Sidebar";
+import Center from "./components/Center.jsx";
+import RightBar from "./components/RightBar.jsx";
 
 function App() {
     return (
         <div className="outer-container">
             <div className="outer-left">
-                <LeftBar></LeftBar>
+                <Sidebar></Sidebar>
             </div>
             <div className="outer-center">
                 <Center></Center>
